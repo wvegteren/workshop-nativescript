@@ -1,0 +1,45 @@
+<ActionBar title="Profile" class="action-bar">
+</ActionBar>
+
+<StackLayout class="form m-10">
+  <ScrollView>
+    <StackLayout>
+      <Label text="Name:" class="text-primary"></Label>
+      <TextField
+          [(ngModel)]="profile.name"
+          hint="name">
+      </TextField>
+
+      <Label text="Password:" class="text-primary"></Label>
+      <TextField
+          [(ngModel)]="profile.password"
+          hint="password"
+          secure="true">
+      </TextField>
+
+      <Label [text]="'Angular Pro: ' + ((profile.angularPro) ? 'Yes': 'No')" class="text-primary"></Label>
+      <Switch
+          [(ngModel)]="profile.angularPro"
+          class="switch"
+          horizontalAlignment="left">
+      </Switch>
+
+      <Label [text]="'Date of Birth: ' + profile.dob.toLocaleDateString()" class="text-primary"></Label>
+      <DatePicker
+          [(ngModel)]="profile.dob">
+      </DatePicker>
+
+      <Label [text]="'Coding power:' + profile.codingPower" class="text-primary" [class.zoom]="profile.codingPower > 7"></Label>
+      <Slider
+          [(ngModel)]="profile.codingPower"
+          [minValue]="0"
+          [maxValue]="10"
+          class="slider"
+          [class.danger-slider]="profile.codingPower > 7">
+      </Slider>
+
+      <Button text="Save" (tap)="save()" class="btn btn-primary"></Button>
+      <Button text="Clear" (tap)="clear()" class="btn btn-outline"></Button>
+    </StackLayout>
+  </ScrollView>
+</StackLayout>

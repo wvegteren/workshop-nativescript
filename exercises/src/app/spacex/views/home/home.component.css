@@ -1,0 +1,11 @@
+.base {
+    background-image: url("~/spacex/views/home/spacex_home.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    background-position: center;
+}
+
+button {
+    margin-bottom: 100;
+}

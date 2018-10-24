@@ -1,0 +1,31 @@
+<ActionBar title="SpaceX Launches" icon="" class="action-bar">
+</ActionBar>
+<TabView class="tab-view" selectedIndex="0">
+    <StackLayout class="page" *tabItem="{title: 'Upcoming Launches'}">
+        <Label class="h2 text-center" text="Upcoming Launches"></Label>
+        <ListView [items]="upcoming" class="list-group">
+            <ng-template let-item="item">
+                <StackLayout class="list-group-item">
+                    <Label [text]="item.rocket.rocket_name" class="h2"></Label>
+                    <Label [text]="item.launch_date_utc" class="h4"></Label>
+                    <Label textWrap="true" [text]="item.launch_site.site_name_long"></Label>
+                </StackLayout>
+            </ng-template>
+        </ListView>
+    </StackLayout>
+    <StackLayout class="page" *tabItem="{title: 'Previous Launches'}">
+        <Label class="h2 text-center" text="Previous Launches"></Label>
+        <ListView [items]="past" class="list-group">
+            <ng-template let-item="item">
+                <GridLayout rows="*, *, *" columns="auto, *"
+                            [nsRouterLink]="['/spacex/detail', item.flight_number]"
+                            class="list-group-item">
+                    <Image row="0" col="0" rowSpan="3" [src]="item.links.mission_patch" class="img-circle"></Image>
+                    <Label row="0" col="1" [text]="item.rocket.rocket_name"></Label>
+                    <Label row="1" col="1" [text]="item.launch_date_utc"></Label>
+                    <Label row="2" col="1" textWrap="true" [text]="item.launch_site.site_name_long"></Label>
+                </GridLayout>
+            </ng-template>
+        </ListView>
+    </StackLayout>
+</TabView>
