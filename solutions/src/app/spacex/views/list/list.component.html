@@ -18,7 +18,7 @@
         <ListView [items]="past" class="list-group">
             <ng-template let-item="item">
                 <GridLayout rows="*, *, *" columns="auto, *"
-                            [nsRouterLink]="['/detail', item.flight_number]"
+                            [nsRouterLink]="['/spacex/detail', item.flight_number]"
                             class="list-group-item">
                     <Image row="0" col="0" rowSpan="3" [src]="item.links.mission_patch" class="img-circle"></Image>
                     <Label row="0" col="1" [text]="item.rocket.rocket_name"></Label>
