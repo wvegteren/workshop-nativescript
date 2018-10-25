@@ -7,7 +7,7 @@ to the material at any time.
 
 Below please find the slides presented tonight:
 
-* [Download the _Introduction to NativeScript_ slides](https://github.com/wvegteren/nativescript-workshop/blob/master/introduction-nativescript.pptx)
+* [Download the _Introduction to NativeScript_ slides](https://github.com/wvegteren/workshop-nativescript/raw/master/workshop.pptx)
 
 
 ### Prerequisites

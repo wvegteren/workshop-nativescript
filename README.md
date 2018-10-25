@@ -3,7 +3,7 @@
 In this repo you’ll find the material from my NativeScript workshop.
 
 ## Contents
-* [Presentation](https://github.com/wvegteren/workshop-nativescript/blob/master/workshop.pptx) 
+* [Presentation](https://github.com/wvegteren/workshop-nativescript/raw/master/workshop.pptx) 
 * [Workshop Instructions](https://wvegteren.github.io/workshop-nativescript)
 * [Workshop Exercises](https://github.com/wvegteren/workshop-nativescript/tree/master/exercises)
 * [Workshop Solutions](https://github.com/wvegteren/workshop-nativescript/tree/master/solutions)
