@@ -14,6 +14,7 @@ In this exercise we will be working on `plugins/wizard-profile.component`.
 
 If you are using Playground please head to [https://play.nativescript.org/?template=play-ng&id=DPPcQ0](https://play.nativescript.org/?template=play-ng&id=DPPcQ0).
 In Playground you can only do the Camera and Social Sharing excersises. These plugins are already 'loaded' in Playground.  
+And again ... please `Fork` the Playground app to create your 'own' Playground environment.
 
 Let's start with changing the default route in `app.routing.ts` to `'/plugins'`:
 

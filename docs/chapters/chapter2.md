@@ -55,7 +55,8 @@ by clicking the `Properties` icon in the left navication bar.
 Now you can create a (cloud) build an run the app on your device. 
 <img src="images/chapter2/sidekick-ios-sign8.png" class="img-large" />
 
-Below links to Sidekick videos that guide you through the build and signing process in more detail 
+Below links to Sidekick videos that guide you through the build and signing process in more detail
+ 
  * [iOS with a **Free** Apple Developer Account](https://www.youtube.com/watch?time_continue=6&v=5gKuR2UCOnM)
  * [iOS with a **Paid** Apple Developer Account](https://www.youtube.com/watch?time_continue=6&v=5gKuR2UCOnM)
 
@@ -69,6 +70,7 @@ a message `Untrusted Developer` the first time you start the app.
 
 You can trust your personal profile in the `Settings / Instellingen` app on your phone. In the `Settings / Instellingen` 
 app select the options below:
+
  * `General / Algemeen` 
  * `Profile & Device Management / Beheer profielen en apparaten`
  * Select your personal profile

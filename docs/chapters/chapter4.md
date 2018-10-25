@@ -6,7 +6,9 @@ For this exercise we will use the contents of the `app/profile` folder, which al
 that we need.
 
 If you are using `Playground` then you should head to: 
-[https://play.nativescript.org/?template=play-ng&id=HIKegT](https://play.nativescript.org/?template=play-ng&id=HIKegT)
+[https://play.nativescript.org/?template=play-ng&id=HIKegT&v=2](https://play.nativescript.org/?template=play-ng&id=HIKegT&v=2)
+Please `Fork` the Playground app to create your 'own' Playground environment.
+
 
 If you open `profile.component.ts` you will notice that our component has an attribute `profile` with some populated 
 values. In the next few steps we will create a screen that will allow us to display and edit these values.

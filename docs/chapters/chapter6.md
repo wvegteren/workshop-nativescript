@@ -224,7 +224,8 @@ this.http.get('http://api.someopendata.org/cities', { headers: myHeaders, params
 For this exercise we will use APIs from SpaceX to get information for upcoming and past launches.
 All code for ths exercise is located in the `spacex` folder. You can find the `LaunchService` in `spacex/services/launch.service.ts`.
 
-If you are using `Playground` then you should head to: [https://play.nativescript.org/?template=play-ng&id=OAc6BX](https://play.nativescript.org/?template=play-ng&id=OAc6BX)
+If you are using `Playground` then you should head to: [https://play.nativescript.org/?template=play-ng&id=OAc6BX&v=4](https://play.nativescript.org/?template=play-ng&id=OAc6BX&v=4)
+Please `Fork` the Playground app to create your 'own' Playground environment.
 
 You can find the documentation for the [SpaceX APIs here](https://github.com/r-spacex/SpaceX-API/tree/master/docs).
 

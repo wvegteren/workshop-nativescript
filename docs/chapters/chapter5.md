@@ -70,7 +70,8 @@ Open `app.routing.ts` and change the `redirectTo` of the default route to `'/col
 { path: '', redirectTo: '/color', pathMatch: 'full' },
 ```
 
-If you are using `Playground` then you should head to: [https://play.nativescript.org/?template=nsday-color`](https://play.nativescript.org/?template=nsday-color)
+If you are using `Playground` then you should head to: [https://play.nativescript.org/?template=nsday-color](https://play.nativescript.org/?template=nsday-color).
+Please `Fork` the Playground app to create your 'own' Playground environment.
 
 #### Step 2
 
