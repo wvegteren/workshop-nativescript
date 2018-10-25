@@ -10,9 +10,9 @@ import { ListComponent } from './spacex/views/list/list.component';
 import { DetailComponent } from './spacex/views/detail/detail.component';
 
 const routes: Routes = [
-  // { path: '', redirectTo: '/profile', pathMatch: 'full' },
+  { path: '', redirectTo: '/profile', pathMatch: 'full' },
   // { path: '', redirectTo: '/color', pathMatch: 'full' },
-  { path: '', redirectTo: '/spacex', pathMatch: 'full' },
+  // { path: '', redirectTo: '/spacex', pathMatch: 'full' },
   // { path: '', redirectTo: '/plugins', pathMatch: 'full' },
 
   // Lesson 1
