@@ -16,7 +16,6 @@ import { ColorComponent, BlueComponent, RedComponent, RGBComponent } from './col
 import { LaunchService } from "./spacex/services/launch.service"
 import { HomeComponent } from "./spacex/views/home/home.component";
 import { ListComponent } from "./spacex/views/list/list.component";
-import { LaunchTemplateComponent } from "./spacex/views/launch-template/launch-template.component";
 import { DetailComponent } from "./spacex/views/detail/detail.component";
 
 // Lesson 4
