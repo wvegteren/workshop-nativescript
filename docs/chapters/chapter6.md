@@ -234,7 +234,7 @@ You can find the documentation for the [SpaceX APIs here](https://github.com/r-s
   <b>Exercise</b>: Injecting SpaceX launch service
 </h4>
 
-Let's start with changing the default route in `app.routing.ts` to `'/spacex'`:
+Let's start with changing the default route in `app-routing.module.ts` to `'/spacex'`:
 
 ``` javascript
 { path: '', redirectTo: '/spacex', pathMatch: 'full' },

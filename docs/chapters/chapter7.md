@@ -16,7 +16,7 @@ If you are using Playground please head to [https://play.nativescript.org/?templ
 In Playground you can only do the Camera and Social Sharing excersises. These plugins are already 'loaded' in Playground.  
 And again ... please `Fork` the Playground app to create your 'own' Playground environment.
 
-Let's start with changing the default route in `app.routing.ts` to `'/plugins'`:
+Let's start with changing the default route in `app-routing.module.ts` to `'/plugins'`:
 
 ``` javascript
 { path: '', redirectTo: '/plugins', pathMatch: 'full' },

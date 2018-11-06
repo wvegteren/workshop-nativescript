@@ -64,7 +64,7 @@ There is a lot more you can do in here, which is out of scope for this workshop.
 
 For this exercise we will use the contents of the `app/color` folder, which already contains some pieces of the app that we need.
 
-Open `app.routing.ts` and change the `redirectTo` of the default route to `'/color'`
+Open `app-routing.module.ts` and change the `redirectTo` of the default route to `'/color'`
 
 ``` XML
 { path: '', redirectTo: '/color', pathMatch: 'full' },
